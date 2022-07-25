@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/bootstrap.css">
+	<link rel="stylesheet" href="./css/main.css">
+	<title>Pokemon and Movie rendering</title>
+</head>
+<body id="main__body" class="container">
+	
+	<h2 class="text-center mt-5 fs-1 fw-bold">What to render? </h2>
+	
+	
+	
+	<main>
+		<section class="hero"> 
+			<div class="container">
+				<div id="image">
+				</div>
+
+				<div class="hero__top d-flex flex-wrap justify-content-center align-items-center gap-5"> 
+					<button id="btn__pokemon" class="btn btn-warning w-25 mb-5" type="button">Pokemon</button>
+					<button id="btn__movies" class="btn btn-primary w-25 mb-5" type="button">Movies</button>
+					<button id="btn__random" class="btn btn-danger w-25 mb-5" type="button">Both</button>
+					<button id="btn__clear" class="btn btn-secondary w-25 mb-5" type="button">Clear</button>
+				</div>
+				
+				<h2>Result: <span class="result">0</span></h2>
+				
+				<ul id="list" class="row list d-flex list-unstyled flex-wrap justify-content-between">
+					<p id="text" class="h2 text-center">Click any Button!</p>
+				</ul>
+			</div>
+		</section>        
+	</main>
+	
+	<script src=".//js/pokemon.js"></script>
+	<script src=".//js/movies.js"></script>
+	<script src=".//js/main.js"></script>
+	<script src="./js/bootstrap.js"></script>
+</body>
+</html>
